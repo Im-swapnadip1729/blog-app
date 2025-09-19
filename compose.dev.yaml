@@ -29,7 +29,7 @@ services:
     networks:
       - blog-app-net
   blog-server:
-    image: codersgyan/blog-app:build-4
+    image: swapnadip98/blog-app:build-4
     deploy:
       replicas: 2
       update_config:

@@ -48,8 +48,8 @@ jobs:
     build-and-push:
         runs-on: ubuntu-latest
         env:
-            IMAGE_NAME: codersgyan/blog-app
-            IMAGE_TAG: build-${{github.run_number}} #codersgyan/blog-app:build-1
+            IMAGE_NAME: swapnadip98/blog-app
+            IMAGE_TAG: build-${{github.run_number}} #swapnadip98/blog-app:build-1
         needs:
             - lint
             - test
